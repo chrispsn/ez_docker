@@ -22,4 +22,4 @@ docker build -t $dir_name .
 #   (b) spaces in names
 # The weird string at the end allows arbitrary arguments to be passed:
 # http://stackoverflow.com/a/4824603
-docker run -v "${PWD}"://$dir_name -it -w /$dir_name $dir_name $@
+docker run -v "${PWD}"://$dir_name -it -w /$dir_name $dir_name "$@"
