@@ -23,4 +23,4 @@ docker build -t $dir_name .
 
 $dir_path = $PSScriptRoot -replace ":", ""
 
-docker run -v /$dir_path\:/$dir_name -it -w /$dir_name $dir_name
+docker run -v /$dir_path\:/$dir_name -it -w /$dir_name $dir_name $args
