@@ -8,9 +8,9 @@
 #
 #     /current_directory_name would be the current working directory.
 #
-# Usage:
+# Usage example:
 #
-#     ./docker_ez_start.sh python3.5 test.py
+#     ./ez_docker.sh bash --version
 
 # For current directory name: http://stackoverflow.com/a/1371283
 dir_name=${PWD##*/}

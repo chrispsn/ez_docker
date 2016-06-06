@@ -7,15 +7,9 @@
 # with the current directory mounted into the container under root 
 # (with the same name) and used as the current working directory.
 #
-# Usage:
+# Usage example:
 #
-#     PS ./ez_docker.ps1
-#
-#     # python3.5 test.py
-#
-# TODO: Find PowerShell equivalent of "$@" in bash so can do this:
-#
-#     PS ./ez_docker.PS1 python3.5 test.py
+#     PS ./ez_docker.ps1 bash --version
 
 $dir_name = (Get-Item $PSScriptRoot).Name
 
